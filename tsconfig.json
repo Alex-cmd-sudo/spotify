@@ -28,7 +28,7 @@
       ],
       "@shared/*": [
         "src/app/shared/*"
-      ],
+      ]
     },
     "lib": [
       "es2020",
