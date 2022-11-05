@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { MediaPlayerComponent } from './components/media-player/media-player.component';
 import { HeaderUserComponent } from './components/header-user/header-user.component';
+import { HomeModule } from '@modules/home/home.module';
+import { HomePageComponent } from '@modules/home/pages/home-page/home-page.component';
 
 
 
@@ -16,7 +18,9 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
     CommonModule
   ],
   exports:[
-    SideBarComponent
+    SideBarComponent,
+    MediaPlayerComponent,
+    HeaderUserComponent
   ]
 })
 export class SharedModule { }
